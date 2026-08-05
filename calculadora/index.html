@@ -1,0 +1,37 @@
+<!DOCTYPE htmpt-br
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/script.js" defer></script>
+</head>
+<body> 
+    <form action="">
+        <main>
+            <div id="numbers">
+                <label>Primeiro número</label>
+                <input type="text" id="box1">
+
+                <label>Segundo número</label>
+                <input type="text" id="box2">
+            </div>
+
+            <div id="bottons">
+                <input type="button" value="+" onclick="calcula('+')">
+                <input type="button" value="-" onclick="calcula('-')">
+                <input type="button" value="*" onclick="calcula('*')">
+                <input type="button" value="/" onclick="calcula('/')">
+                <br>
+                <input type="reset" value="C" onclick="limpar()">
+            </div>
+
+            <div id="divResult">
+                <label>Resultado</label>
+                <input type="text" id="result" readonly>
+            </div>
+        </main>
+    </form>
+</body>
+</html>
