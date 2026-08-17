@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhaskara — Resolução de Equações do 2º Grau</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./src/css/style.css">
+<script src="./src/js/script.js" defer></script>
+</head>
+<body>
+  <div class="sheet">
+    <header>
+      <span class="eyebrow">FÓRMULA</span>
+      <h1>Bhaskara</h1>
+      <p class="sub">Encontre as raízes reais de uma equação do 2º grau.</p>
+    </header>
+
+    <form action="">
+      <div id="calc" class="equation">
+        <input type="text" id="box1" placeholder="a">
+        <span class="term">x²</span>
+        <span class="op">+</span>
+        <input type="text" id="box2" placeholder="b">
+        <span class="term">x</span>
+        <span class="op">+</span>
+        <input type="text" id="box3" placeholder="c">
+        <span class="op">=</span>
+        <span class="zero">0</span>
+      </div>
+
+      <div id="botoes">
+        <button type="button" onclick="calc()">Calcular</button>
+        <button type="reset" onclick="limpar()">Limpar</button>
+      </div>
+
+      <div id="resultado">
+        <div class="delta-chip" id="deltaChip">Δ = —</div>
+        <div class="roots">
+          <div class="root">
+            <label>X₁</label>
+            <input type="text" class="raiz" id="raiz1" readonly>
+          </div>
+          <div class="root">
+            <label>X₂</label>
+            <input type="text" class="raiz" id="raiz2" readonly>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
