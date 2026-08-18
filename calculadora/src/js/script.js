@@ -37,7 +37,7 @@ function calcula(op){
         else
                 resultado = n1/n2;
        
-        document.getElementById("result").value = resultado;
+        document.getElementById("result").value = resultado.toFixed(2);
     }
 }
 
