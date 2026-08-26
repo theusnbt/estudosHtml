@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.linha {
+    margin: 20px;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.botoes {
+    margin-top: 30px;
+}
