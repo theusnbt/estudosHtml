@@ -9,7 +9,7 @@ h1{
 }
 
 form{
-    padding-left: 44rem;
+    padding-left: 37rem;
     padding-top: 5rem;
     margin-left: 150px;
     margin-right: 150px;
@@ -17,6 +17,12 @@ form{
     border-radius: 1.5rem;
     background-image: url(../assets/img/spiderman.jpg);
     background-size: cover;
+}
+
+#back{
+    display:absolute;
+    background: transparent;
+    margin-right: 300px;
 }
 
 label{
@@ -29,14 +35,23 @@ input{
     margin: 5px;
     border: solid black 0.5px;
     border-radius: 5px;
+    color: black;
 }
 
-#Exibir{
+.caixa{
     background-color: #0e213d;
+    /*height: 30px;
+    width: 50px;*/
+    padding-left:20px;
+    padding-bottom:15px;
+    padding-right: 20px;
+    padding-top:12px;
+    font-size: 20px; 
+    color:white;
     border: solid black 1px;
 }
 
-#Limpar{
-    background-color: #0e213d;
-    border: solid black 1px;
+#sgimg{
+    width: 300px;
+    height: 300px;
 }
