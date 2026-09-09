@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/script.js"></script>
+    <title>Cálculo de Idade Burro</title>
+</head>
+<body>
+
+    <h1>Como Calcular sua Idade Sendo Burro</h1>
+
+    <form name="meuForm">
+        <label>Informe o dia em que nasceu:</label>
+        <input type="text" id="dia" placeholder="Dia"><br><br>
+
+        <label>Informe o mês em que nasceu:</label>
+        <input type="text" id="mes" placeholder="Mês"><br><br>
+
+        <label>Informe o ano em que nasceu:</label>
+        <input type="text" id="ano" placeholder="Ano"><br><br>
+
+        <label>Seu mês de nascimento é:</label>
+        <input type="text" id="resMes" disabled placeholder="Seu mês aparecerá aqui"><br><br>
+
+        <label>O dia da semana foi:</label>
+        <input type="text" id="resSemana" disabled placeholder="Seu dia aparecerá aqui"><br><br>
+
+        <label>Sob o signo de:</label><br>
+        <img name="signo" id="sgimg" src=""><br><br>
+
+        <label>E a sua idade é:</label>
+        <input type="text" id="resIdade" disabled placeholder="Sua idade aparecerá aqui"><br><br>
+
+        <input type="button" value="Exibir" onclick="calcular()" id="Exibir">
+        <input type="reset" value="C" onclick="limpar()" id="Limpar">
+    </form>
+
+    <img src="bob.gif" class="bob" alt="">
+    <img src="descobresigno.jpg" class="descobresigno" alt="">
+</body>
+</html>
+

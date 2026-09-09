@@ -1,0 +1,42 @@
+*{
+    background-color: #0e213d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+h1{
+    padding-left: 45rem;
+}
+
+form{
+    padding-left: 44rem;
+    padding-top: 5rem;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid #ffffff, 5px;
+    border-radius: 1.5rem;
+    background-image: url(../assets/img/spiderman.jpg);
+    background-size: cover;
+}
+
+label{
+    background-color: transparent;
+}
+
+input{
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 5px;
+    border: solid black 0.5px;
+    border-radius: 5px;
+}
+
+#Exibir{
+    background-color: #0e213d;
+    border: solid black 1px;
+}
+
+#Limpar{
+    background-color: #0e213d;
+    border: solid black 1px;
+}
